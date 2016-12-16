@@ -157,7 +157,15 @@ namespace CSharp.Test
             all ^= FlagsEnumExample.Alignments.Top;
             all ^= FlagsEnumExample.Alignments.Top;
         }
-        
+
+
+        [TestMethod]
+        public void GenericListTest()
+        {
+            Product p = new Product(1, "Shirt", "Summer Shirt");
+        }
+
+
     }
 }
 
@@ -174,3 +182,5 @@ public class FlagsEnumExample
         Left = 8
     }
 }
+
+
